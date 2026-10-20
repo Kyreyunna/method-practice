@@ -2,26 +2,46 @@
 package com.pluralsight;
 public class Hello {
     public static void main(String[] args) {
-       // String hello= "hello :)";
-        //String goodBye= "Goodbye";
-        //String goodMorning= "Good Morning";
+        printGreeting();
 
+        String situation1= "farewell";
+        String situation2= "exclamation";
+        String situation3="morning";
+
+        String greeting1 = "Hello World!";
+        sayGreeting(greeting1);
+
+        String greeting2 = "Goodbye!";
+        sayGreeting(greeting2);
+
+        String greeting3 = "Good Morning!";
+        sayGreeting(greeting3);}
+
+    public static String sayGreeting(String greeting);{
+        if situation1
     }
 
-    public static String sayHello(String sayHello) {
-        return String;
-        String sayHello= "hello :)";
-        System.out.println(sayHello);
+
+//       // String hello= "hello :)";
+//        //String goodBye= "Goodbye";
+//        //String goodMorning= "Good Morning";
+//
+//    }
+//
+//    public static String sayHello(String sayHello) {
+//        return String;
+//        String sayHello= "hello :)";
+//        System.out.println(sayHello);
+//    }
+//
+//    public static void sayGoodBye() {
+//        String goodBye= "Goodbye";
+//        System.out.println(goodBye);
+//    }
+//
+//    public static void sayGoodMorning() {
+//        String goodMorning= "Good Morning";
+//
+//        System.out.println(goodMorning);
+//}
     }
-
-    public static void sayGoodBye() {
-        String goodBye= "Goodbye";
-        System.out.println(goodBye);
-    }
-
-    public static void sayGoodMorning() {
-        String goodMorning= "Good Morning";
-
-        System.out.println(goodMorning);
-}
-}
