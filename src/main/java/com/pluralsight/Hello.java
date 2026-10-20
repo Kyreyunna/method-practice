@@ -1,32 +1,41 @@
 
 package com.pluralsight;
+
 public class Hello {
     public static void main(String[] args) {
-        printGreeting();
+//        printGreeting();
 
-        String situation1= "farewell";
-        String situation2= "exclamation";
-        String situation3="morning";
+        //String situation1= "farewell";
+//        String situation2= "exclamation";
+//        String situation3="morning";
 
         String greeting1 = "Hello World!";
-        sayGreeting(greeting1);
+        printGreeting(greeting1);
 
         String greeting2 = "Goodbye!";
-        sayGreeting(greeting2);
+        printGreeting(greeting2);
 
         String greeting3 = "Good Morning!";
-        sayGreeting(greeting3);}
+        printGreeting(greeting3);
+    }
 
-    public static String sayGreeting(String greeting);{
-        if situation1
+    //    public static String printGreeting(String greeting) {
+//        if (greeting1 = "Hello World!") {
+//            return "Hello World!";
+//
+//
+//}
+    public static String printGreeting(String greeting) {
+        System.out.printf("%s%n", greeting);
+        return greeting;
     }
 
 
-//       // String hello= "hello :)";
-//        //String goodBye= "Goodbye";
-//        //String goodMorning= "Good Morning";
+//       String hello= "hello :)";
+//        String goodBye= "Goodbye";
+//        String goodMorning= "Good Morning";
 //
-//    }
+//
 //
 //    public static String sayHello(String sayHello) {
 //        return String;
@@ -43,5 +52,6 @@ public class Hello {
 //        String goodMorning= "Good Morning";
 //
 //        System.out.println(goodMorning);
-//}
+
     }
+
